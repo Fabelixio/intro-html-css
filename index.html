@@ -7,8 +7,10 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -17,28 +19,36 @@
     <main>
         <section>
             <h2 class="title" id="title1">A simple pizza recipe to nourish your soul!</h2>
-            <img class="pizza" src="./images/pizza.webp" alt="top down image of a pizza on a wooden cutting board"/>
+            <div class="pizza-wrapper"> 
+                <img class="pizza" src="./images/pizza.webp" alt="top down image of a pizza on a wooden cutting board"/>
+            </div>
             <p>Pizza is a world famous dish, loved by anyone with common sense. It's easy
-                to make and requires relatively few ingredients! This recipe should take
-                around 30 minutes to prepare and 15 minutes to cook!
+            to make and requires relatively few ingredients! This recipe should take
+            around 30 minutes to prepare and 15 minutes to cook!
             </p>
             <div class="container">
              <h3 class="title">Pizza ingredients:</h3>
-                <ul>
+                <ul style="display: inline-block">
                     <li>350g strong bread flour</li>
                     <li>2 tsp baking powder</li>
                     <li>2 tsp rapeseed oil</li>
                     <li>half a tsp sea salt</li>
                     <li>ground black pepper</li>
+                </ul>
+                <ul style="display: inline-block">
                     <li>120g passata</li>
                     <li>1 tbsp tomato puree</li>
                     <li>half a tbsp dried mixed herbs</li>
                     <li>1 mozzarella ball, torn to pieces</li>
+                    <li>toppings of your choice</li>
                 </ul>
             </div>
         </section>
         <section>
-            <div class="container">
+            <div>
+                <div class="dough-wrapper">
+                    <img class="pizza-dough" src="./images/pizza_dough.webp" alt="dough being kneaded into a pizza base"/>
+                </div>
                 <h3 class="title">Method:</h3>
                 <ol>
                     <li>preheat your oven to 200C/180C Fan/Gas 6</li>
@@ -46,8 +56,7 @@
                     <li>Use the remaining flour to dust a flat surface, then knead the dough in the flour until its smooth and springy</li>
                     <li>Roll the dough inro a roughly 30cm/12in disk, place into the oven on a baking tray (be careful not to let it stick!) and bake for 3 minutes.</li>
                     <li>Mix the passata, herbs, sea salt, black pepper and tomato puree to create the sauce.</li>
-                    <li>Remove the dough from the oven and cover its surface in the sauce, leaving a small gap for the crust. Now add your preferred toppings (Pepperoni is my go to!) and spread them evenly.</li>
-                    <li>Bake for 15 minutes. cut into wedges and enjoy!</li>
+                    <li>Remove the dough from the oven and cover its surface in the sauce, leaving a small gap for the crust. Now add your preferred toppings (Pepperoni is my go to!) and spread them evenly.</li>                        <li>Bake for 15 minutes. cut into wedges and enjoy!</li>
                 </ol>
             </div>
         </section>

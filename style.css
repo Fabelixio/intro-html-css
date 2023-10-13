@@ -5,15 +5,27 @@ body {
 .pizza {
     border-radius: 30px;
     margin-left: 30px;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
 
+.pizza-wrapper {
+    display: grid;
+    place-items: center;
+}
+
+.dough-wrapper {
+    display: grid;
+    place-items: center;
+}
+
+p, li {
+    font-family: 'Yuji Syuku';
 }
 
 .pizza-dough {
-    border-radius: 70%;
-    box-shadow: 10px 5px 5px black;
-    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px black;
     width: 300px;
     height: auto;
     margin-bottom: 15px;
@@ -55,8 +67,20 @@ a:active {
 
 ol, ul {
     color: darkolivegreen;
-    text-align: left;
+}
+
+footer {
+    border: 5px dashed burlywood;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .container {
+    border: 3px dashed burlywood;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 10px 20px 10px;
 }
